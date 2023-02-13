@@ -7,7 +7,7 @@ const randomIndex = Math.floor(Math.random() * images.length);
 
 // Return the image at that index
 const imageName = images[randomIndex];
-const randomImage = `assets/img/${imageName}`;
+const randomImage = `/img/${imageName}`;
 </script>
 
 <template>

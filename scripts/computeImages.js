@@ -8,7 +8,7 @@ const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 
 async function main() {
-    const imagesDir = path.join(__dirname, '../assets/img');
+    const imagesDir = path.join(__dirname, '../public/img');
     const imagesJson = path.join(__dirname, '../src/images.json');
 
     const images = await fs.readdir(imagesDir);
